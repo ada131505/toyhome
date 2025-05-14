@@ -1,0 +1,246 @@
+html {
+    height: 100vh;
+    width: 101vw;
+    background-image: url("toyhomeimg/background.JPG");
+    background-size: contain;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.bgm {
+    background-image: url("toyhomeimg/speaker.PNG");
+    background-size: contain;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 2%;
+    top: 6%;
+    cursor: pointer;
+}
+
+.topic {
+    position: relative;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffcfd6;
+    margin: -8px;
+    padding-top: 145px;
+    padding-bottom: 70px;
+    border-bottom: 15px double #fffdd0;
+    color: #fffdd0;
+    letter-spacing: 10px;
+    box-shadow: 0px 4px 6px grey;
+}
+
+.heart {
+    position: relative;
+    width: 100%;
+    height: 24%;
+    border: none;
+    background-color: #ffe0e4;
+    color: #7db0f0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 3px 3px 5px 2px #87bde7;
+}
+
+.fix {
+    position: relative;
+    width: 100%;
+    height: 24%;
+    border: none;
+    background-color: #ffe0e4;
+    color: #7db0f0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 3px 3px 5px 2px #87bde7;
+}
+
+.buy {
+    position: relative;
+    padding: 0px;
+    width: 100%;
+    height: 24%;
+    border: none;
+    background-color: #ffe0e4;
+    color: #7db0f0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 3px 3px 5px 2px #87bde7;
+}
+
+.bag {
+    position: relative;
+    padding: 0px;
+    width: 100%;
+    height: 24%;
+    border: none;
+    background-color: #ffe0e4;
+    color: #7db0f0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 3px 3px 5px 2px #87bde7;
+}
+
+.meimg {
+    position: absolute;
+    border: 6px solid rgb(0, 0, 0);
+    background-image: url("toyhomeimg/meimg1.JPG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 110px;
+    top: 2%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.heartcontent {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+    width: 80vw;
+    margin: 0;
+    padding-bottom: 5vh;
+    background-color: transparent;
+    border: none;
+}
+
+.heartbox {
+    text-align: center;
+    display: block;
+    z-index: 1000;
+    max-width: 100%;
+    width: auto;
+    box-shadow: 2px 3px 4px 1px #757575;
+}
+
+.heart1 {
+    font-size: 23px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 3px 4px 1px #b4b4b4;
+    background-color: #b9e4fc;
+    color: #fffdd0;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.heart1:hover {
+    box-shadow: 3px 4px 6px 1px #c3c3c3;
+    transform: translateY(-3px);
+}
+
+.heart1:active {
+    box-shadow: 2px 3px 4px 1px #b4b4b4;
+    transform: translateY(3px);
+}
+
+.heart10 {
+    font-size: 23px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 3px 4px 1px #b4b4b4;
+    background-color: #e6ccff;
+    color: #fffdd0;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.heartbutton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart10:hover {
+    box-shadow: 3px 4px 6px 1px #c3c3c3;
+    transform: translateY(-3px);
+}
+
+.heart10:active {
+    box-shadow: 2px 3px 4px 1px #b4b4b4;
+    transform: translateY(3px);
+}
+
+.topicmenu {
+    background-image: url("toyhomeimg/menu.PNG");
+    background-size: contain;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #ffe0e4;
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 2px #cfa9ae;
+}
+
+.topicbutton {
+    position: absolute;
+    right: -50%;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
+    border: none;
+    z-index: 10000;
+    width: 30vw;
+    height: 30vh;
+    background-color: #cbebff;
+    box-shadow: 2px 2px 4px 2px #959595;
+}
+
+.table1 {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.tr1 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.td1 {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.heart1content {
+    background-image: url("toyhomeimg/toy_bear1.PNG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60vw;
+    height: 20vh;
+    border: 2px solid black;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玩具收容所</title>
+    <script src="toyhome.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="toyhome.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <audio id="bgmaudio" loop>
+        <source src="bgm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="click">
+        <source src="click.mp3" type="audio/mpeg">
+    </audio>
+    <h1 id="topic" class="topic">
+        <button onclick="meimg()" id="meimg" class="meimg"></button> 玩具收容所
+        <button onclick="bgm()" id="bgm" class="bgm"></button>
+        <button onclick="topicmenu()" id="topicmenu" class="topicmenu"></button>
+
+    </h1>
+
+    <dialog id="topicbutton" class="topicbutton">
+        <button onclick="heart()" id="heart" class="heart">
+            <table class="table1">
+                <tr class="tr1">
+                    <td class="td1"><img src="toyhomeimg/heart.PNG" width='50px' height='50px'></td>
+                    <td class="td1">回收</td>
+                </tr>        
+            </table>
+        </button>
+        <br>
+        <button onclick="fix()" id="fix" class="fix">
+           <table class="table1">
+                <tr class="tr1">
+                    <td class="td1"><img src="toyhomeimg/fix.PNG" width='50px' height='50px'></td>
+                    <td class="td1">修理</td>
+                </tr>        
+            </table>
+        </button>
+        <br>
+        <button onclick="buy()" id="buy" class="buy">
+            <table class="table1">
+                <tr class="tr1">
+                    <td class="td1"><img src="toyhomeimg/buy.PNG" width='50px' height='50px'></td>
+                    <td class="td1">零件</td>
+                </tr>        
+            </table>
+        </button><br>
+        <button onclick="bag()" id="bag" class="bag">
+            <table class="table1">
+                <tr class="tr1">
+                    <td class="td1"><img src="toyhomeimg/bag.PNG" width='50px' height='50px'></td>
+                    <td class="td1">背包</td>
+                </tr>        
+            </table>
+        </button>
+    </dialog>
+
+    <dialog id="heartcontent" class="heartcontent">
+        <img src="toyhomeimg/heartbox1.JPG" id="heartbox" class="heartbox">
+        <div class="heartbutton">
+            <button onclick=" heart1() " id="heart1 " class="heart1 "><b>回收一次</b></button>
+            <button onclick="heart10() " id="heart10 " class="heart10 "><b>回收十次</b></button>
+        </div>
+        <div id="h1content" class="heart1content"></div>
+    </dialog>
+</body>
+
+</html>
